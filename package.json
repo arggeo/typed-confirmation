@@ -1,6 +1,6 @@
 {
    "name": "typed-confirmation",
-   "version": "1.0.0",
+   "version": "1.0.3",
    "description": "A github-like action confirmation modal where a user is required to confirm an action by typing in specific text - but on steroids.",
    "author": "Argy Georgiadis",
    "license": "MIT",

@@ -74,8 +74,8 @@ import { matchValueValidatorAsync } from '../directives/match-value-validator-as
                </span>
             </div>
             <div class="tc-modal-footer">
-               <div *ngIf="random && !settings.disableRandomRegeneration" class="secondary-buttons" [ngClass]="classes.regenerateBtn">
-                  <button (click)="regenerateKeyword()">{{ translations.regenerateLabel || 'Regenarate' }}</button>
+               <div *ngIf="random && !settings.disableRandomRegeneration" class="secondary-buttons">
+                  <button [ngClass]="classes.regenerateBtn" (click)="regenerateKeyword()">{{ translations.regenerateLabel || 'Regenarate' }}</button>
                </div>
                <div class="primary-buttons">
                   <button [ngClass]="classes.cancelBtn" (click)="onCancel()">
